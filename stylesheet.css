@@ -193,6 +193,9 @@ name {
   padding: 15px 15px 15px 20px;
   width: 35%;
   vertical-align: top;
+  background-color: #eaf3fb;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 .paper_tb video {
@@ -244,6 +247,9 @@ name {
   width: 65%;
   vertical-align: top;
   line-height: 22px;
+  background-color: #eaf3fb;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 @media (max-width: 675px) {
@@ -255,11 +261,13 @@ name {
   .paper_tb {
     padding: 15px 20px 0px 20px;
     width: 90%;
+    border-radius: 12px 12px 0 0;
   }
 
   .paper_details {
     padding: 15px 20px 15px 20px;
     width: 90%;
+    border-radius: 0 0 12px 12px;
   }
 }
 
